@@ -1,0 +1,71 @@
+body {
+  background-image: url('./grass.webp');
+}
+
+.Bee {
+  display: block;
+  margin: auto;
+  width: 20%;
+  position: sticky;
+  top: 50px;
+}
+
+.Flower1 {
+  width: 20%;
+  position: relative;
+  left: 70%;
+}
+
+.Flower2 {
+  width: 15%;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+
+.Flower3 {
+  width: 16%;
+  position: relative;
+  left: 20%;
+  top: 10%;
+  
+}
+
+.Flower4 {
+  width: 17%;
+  position: relative;
+  left: 24%;
+  top: 200px;
+}
+
+.Flower5 {
+  width: 18%;
+  position: relative;
+  top: 500px;
+  left: 7%;
+}
+
+.Flower6 {
+  width: 19%;
+  display: block;
+  margin: auto;
+  
+  
+}
+
+.Flower7 {
+  width: 17%;
+  position: relative;
+  left: 77%;
+  top: 600px;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	position: relative;
+	top: 900px;
+	left: 10%;
+	font-size: 35px;
+	
+}

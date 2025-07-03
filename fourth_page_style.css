@@ -1,0 +1,21 @@
+body {
+  background-image: url('./lobster.png');
+  background-color: linen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  background-color: Salmon;
+  color: white;
+  font-weight: bold;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 25px;
+  border: solid medium #c63d1f;
+}
+
+a:hover, a:active {
+  background-color: Tomato;
+}

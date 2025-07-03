@@ -1,0 +1,35 @@
+body {
+  background-color: lightyellow;
+}
+
+[href]{
+   color: MediumSeaGreen;
+}
+
+a:hover {
+  background-color: lightblue;
+}
+
+h1 {
+  text-align: center;
+  background-image: url("./grass.webp");
+  background-size: cover;
+  background-position: center;
+  height: 100px;
+  padding: 90px;
+  font-size: 40px;
+  color: white;
+  width: 100%
+}
+
+p {
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 25%;
+}
+

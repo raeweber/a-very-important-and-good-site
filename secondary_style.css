@@ -1,0 +1,24 @@
+p {
+  color: black;
+  font-family: Papyrus, fantasy;
+}
+
+a {
+  color: black;
+  font-family: Papyrus, fantasy;
+  
+}
+
+body {
+  cursor: url("NICK.png"), auto;
+  }
+  
+img {
+  border: thick dotted blue;
+}
+
+body {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
