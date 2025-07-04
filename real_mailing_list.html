@@ -3,7 +3,8 @@
 
 <head>
 	<title>Real Mailing List</title>
-    
+    <link href='./real_mailing_list.css' rel='stylesheet'>
+	
 </head>
 
 <body>
@@ -11,7 +12,7 @@
     <img src="./sticker.png" />
 	<br><br>
 	<h1>Welcome to the <em>real</em> mailing list!</h1>
-	<h3>Please fill out this form with all of the very standard mailing list information
+	<h3>Please fill out this form with all of this very standard mailing list information
 	  so we can update you on this wonderful site!</h3>
 	<br>
 	
@@ -20,16 +21,97 @@
 		<label for='name'>Full Name:</label>
 		<input type='text' id='name' name='name' required>
 		
-		<br><br>
+		<br><br><br>
 		
 		<label for='email'>Email:</label>
 		<input type='email' id='email' name='email' required>
+		
+		<br><br><br>
+		
+		<label for='frequency'>How Often Would You Like To Receive Email Updates?</label>
+		<br><br>
+		<input type='radio' id='twice' name='frequency' value='Twice a Day'>
+		<label for='twice'>Twice a Day</label>
+		<br>
+		<input type='radio' id='hourly' name='frequency' value='Hourly'>
+		<label for='hourly'>Hourly</label>
+		<br>
+		<input type='radio' id='always' name='frequency' value='Every Waking Minute'>
+		<label for='always'>Every Waking Minute</label>
+		
+		<br><br><br>
+		
+		<label for='why'>Why Are You Joining Our Mailing List?</label>
+		<input type='text' id='why' name='why' required>
+		
+		<br><br><br>
+		
+		<label for='colour'>What is the Best Colour?</label>
+		<input type='color' id='colour' name='colour' required>
+		
+		<br><br><br>
+		
+		<label for='might'>What is Mightier?</label>
+		<br><br>
+		<input type='radio' id='pen' name='might' value='The Pen'>
+		<label for='pen'>The Pen</label>
+		<br>
+		<input type='radio' id='sword' name='might' value='The Sword'>
+		<label for='sword'>The Sword</label>
+		
+		<br><br><br>
+		
+		<label for='bing bong'>Bing Bong?</label>
+		<br><br>
+		<input type='checkbox' id='yes' name='bing bong' value='Yes'>
+		<label for='yes'>Yes</label>
+		<br>
+		<input type='checkbox' id='no' name='bing bong' value='No'>
+		<label for='no'>No</label>
+		
+		<br><br><br>
+		
+		<label for='suggestions'>Suggestions for Our Site:</label>
+		<input type='text' id='suggestions' name='suggestions' required>
+		
+		<br><br><br>
+		
+		<label for='enjoyment'>How Much Enjoyment Have You Gotten From This Site?</label>
+		<input type='range' id='enjoyment' name='enjoyment' min='0' max='10' required>
+		
+		<br><br><br>
+
+		<img src='./crab.png' />
+		<br>
+		<label for='crab'>Give Him a Name!</label>
+		<input type='text' id='crab' name='crab' required>
+		
+		<br><br><br>
+		
+		<label for='secret'>Give Us Your Deepest, Darkest Secret!</label>
+		<input type='text' id='secret' name='secret' required>
+		
+		<br><br><br>
+		
+		<label for='nickname'>Give Rae a Cool New Nickname!</label>
+		<input type='text' id='nickname' name='nickname' required>
+		
+		<br><br><br>
+		
+		<label for='worst colour'>What is the Worst Colour?</label>
+		<input type='color' id='worst colour' name='worst colour' required>
+		
+		<br><br><br>
+		
+		<p>Thank you for answering our questions! Press submit to join our mailing list!</p>
 		
 		<br><br>
 		
 		<input type='submit'>
 		
 	</form>
+	
+	<br><br>
 	
 </body>
 </html>
