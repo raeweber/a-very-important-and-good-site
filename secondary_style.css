@@ -22,3 +22,15 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
+#mathtime {
+	background-color: lightblue;
+	padding: 40px;
+	border-radius: 25px;
+	border: 5px solid blue;
+}
+
+.funmathheading {
+	font-weight: bold;
+	color: blue;
+}
