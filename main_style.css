@@ -28,15 +28,15 @@ p {
 }
 
 img {
-	display: block;
-	margin: auto;
-	width: 25%;
-	transition-property: width;
-    transition-duration: 1s;
+  display: block;
+  margin: auto;
+  width: 25%;
+  transition-property: width;
+  transition-duration: 1s;
 }
 
 img:hover {
-	width: 80%;
+  width: 80%;
 }
 
 
